@@ -1,0 +1,8 @@
+<filename>{fname}</filename>
+<width>{width}</width>
+<height>{height}</height>
+<channels>{channels}</channels>
+<xmin>{xmin}</xmin>
+<xmax>{xmax}</xmax>
+<ymin>{ymin}</ymin>
+<ymax>{ymax}</ymax>
