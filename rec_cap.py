@@ -27,7 +27,7 @@ with open('done_list.json') as file:
 
 for file in all_files:
     try:
-        if not (file.lower().endswith('.jpg') or file.lower().endswith('.jpeg')):
+        if file.split('.')[1].lower() not in ['jpg', 'jpeg', 'png']:
             continue
         fname = int(file.split('.')[0])
         if fname in done_list:
